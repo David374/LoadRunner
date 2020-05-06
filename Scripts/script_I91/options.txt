@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\David374\Desktop\1st_script
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\david374\desktop\1st_script\\logfile.log
+c:\users\david374\desktop\1st_script\\combined_1st_script.c
+c:\users\david374\desktop\1st_script\\pre_cci.c
