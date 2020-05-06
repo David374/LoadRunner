@@ -1,0 +1,42 @@
+[
+    {
+        "actionName": "Itinerary",
+        "steps": [
+            {
+                "stepId": "STEP4",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t4.inf",
+                "time": 1587407799338
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TR02_itinerary",
+                "rawStartTime": 1587407799159,
+                "rawEndTime": 1587407799339,
+                "thinkTime": 0.0,
+                "wastedTime": 0.006836652755737305
+            }
+        ]
+    },
+    {
+        "actionName": "Cancel_Orders",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Custom Request: itinerary.pl_2",
+                "infFile": "t5.inf",
+                "time": 1587407799667
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TR03_cancel_orders",
+                "rawStartTime": 1587407799351,
+                "rawEndTime": 1587407799668,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005006313323974609
+            }
+        ]
+    }
+]
