@@ -1,0 +1,2 @@
+"1=on&2=on&3=on&flightID=330026697-832-ES&.cgifields=1&flightID=330009661-1603-JB&.cgifields=3&"
+"flightID=3300251902-23183-CP&.cgifields=2&removeFlights.x=36&removeFlights.y=4"

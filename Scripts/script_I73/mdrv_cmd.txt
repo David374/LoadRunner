@@ -1,0 +1,1 @@
+-usr "M:\Dav\3rd_script\3rd_script.usr" -drv_log_file "M:\Dav\3rd_script\mdrv.log" -qt_result_dir "M:\Dav\3rd_script\result1" -extra_ext rtc_client -extra_ext vugdbg_ext -cci_elevel -msg_suffix_enable 0 -out "M:\Dav\3rd_script\" -correlation_files -param_non_working_days 6,7 -product_name vugen -pid 13384 -vugen_win 922678 -vugen_animate_delay 1 -param_log_timestamp_flag  0

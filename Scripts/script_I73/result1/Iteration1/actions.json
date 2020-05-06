@@ -1,0 +1,61 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t3.inf",
+                "time": 1588777522795
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Custom Request: itinerary.pl",
+                "infFile": "t4.inf",
+                "time": 1588777522924
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t5.inf",
+                "time": 1588777523100
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t6.inf",
+                "time": 1588777523200
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "TR02_Itinerary",
+                "rawStartTime": 1588777522631,
+                "rawEndTime": 1588777522797,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0074291229248046879
+            },
+            {
+                "transactionName": "TR03_cancel_tickets",
+                "rawStartTime": 1588777522802,
+                "rawEndTime": 1588777522926,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004107475280761719
+            },
+            {
+                "transactionName": "TR04_Flights",
+                "rawStartTime": 1588777522930,
+                "rawEndTime": 1588777523110,
+                "thinkTime": 0.0,
+                "wastedTime": 0.012790918350219727
+            },
+            {
+                "transactionName": "TR05_Find_Flight",
+                "rawStartTime": 1588777523115,
+                "rawEndTime": 1588777523202,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004270792007446289
+            }
+        ]
+    }
+]
