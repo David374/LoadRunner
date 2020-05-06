@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IM:\Dav\2nd_script
+-ID:\AdminFiles\LoadRunner\LR_prog\include
+-em:\dav\2nd_script\\logfile.log
+m:\dav\2nd_script\\combined_2nd_script.c
+m:\dav\2nd_script\\pre_cci.c

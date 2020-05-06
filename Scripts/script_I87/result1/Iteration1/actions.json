@@ -1,0 +1,48 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t3.inf",
+                "time": 1588785792794
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t4.inf",
+                "time": 1588785792900
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t5.inf",
+                "time": 1588785793048
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "TR02_Flights",
+                "rawStartTime": 1588785792322,
+                "rawEndTime": 1588785792796,
+                "thinkTime": 0.0,
+                "wastedTime": 0.010333061218261719
+            },
+            {
+                "transactionName": "TR03_Find_Flight",
+                "rawStartTime": 1588785792811,
+                "rawEndTime": 1588785792902,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004651308059692383
+            },
+            {
+                "transactionName": "TR04_Itinerary",
+                "rawStartTime": 1588785792906,
+                "rawEndTime": 1588785793049,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00647735595703125
+            }
+        ]
+    }
+]
