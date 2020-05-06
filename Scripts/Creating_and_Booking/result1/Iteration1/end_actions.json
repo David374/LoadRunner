@@ -1,0 +1,22 @@
+[
+    {
+        "actionName": "vuser_end",
+        "steps": [
+            {
+                "stepId": "STEP7",
+                "stepName": "Submit Data: reservations.pl_4",
+                "infFile": "t7.inf",
+                "time": 1588772374134
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TR6_Invoice",
+                "rawStartTime": 1588772373880,
+                "rawEndTime": 1588772374209,
+                "thinkTime": 0.0,
+                "wastedTime": 0.13777852058410645
+            }
+        ]
+    }
+]

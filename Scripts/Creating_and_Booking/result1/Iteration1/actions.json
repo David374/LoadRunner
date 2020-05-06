@@ -1,0 +1,68 @@
+[
+    {
+        "actionName": "Search",
+        "steps": [
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t3.inf",
+                "time": 1588772349965
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t4.inf",
+                "time": 1588772356824
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TR02_Flights",
+                "rawStartTime": 1588772349456,
+                "rawEndTime": 1588772349967,
+                "thinkTime": 0.0,
+                "wastedTime": 0.11699223518371582
+            },
+            {
+                "transactionName": "UC01_TR03_Find_Flight",
+                "rawStartTime": 1588772356513,
+                "rawEndTime": 1588772356825,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0863504409790039
+            }
+        ]
+    },
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t5.inf",
+                "time": 1588772364375
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t6.inf",
+                "time": 1588772367845
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "UC01_TR04_Find_Flight",
+                "rawStartTime": 1588772364085,
+                "rawEndTime": 1588772364376,
+                "thinkTime": 0.0,
+                "wastedTime": 0.08542847633361817
+            },
+            {
+                "transactionName": "UC01_TR05_Payment_Details",
+                "rawStartTime": 1588772367522,
+                "rawEndTime": 1588772367846,
+                "thinkTime": 0.0,
+                "wastedTime": 0.09817194938659668
+            }
+        ]
+    }
+]
